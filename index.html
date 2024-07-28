@@ -10,18 +10,19 @@
 </head>
 <body>
     
-        <header>
-            <nav class="cabecalho__menu">
-            <div class="menu-links">
-                <a class="cabecalho__menu__link nav-link" id="menu-inicio" href="index.html">Gigantes do Universo</a>
-                <a class="cabecalho__menu__link nav-link" id="menu-influencias" href="influencia.html">Objetos estelares</a>
-                <a href="index.html"><img class="cabecalho__menu__link__img" src="estilos/img/logo.png"></a>
-                <a class="cabecalho__menu__link nav-link" id="menu-territorio" href="territorio.html">Mundos e Satélites</a>
-                <a class="cabecalho__menu__link nav-link" id="menu-politica" href="política.html">Pequenos corpos e regiões</a>
-            </div>
-            <div class="menu-icon" onclick="toggleMenu()">☰</div>
-        </nav>
-        </header>
+    <header>
+        <nav class="cabecalho__menu">
+            <a href="index.html"><img class="img-mobile-menu" src="estilos/img/logo.png"></a>
+        <div class="menu-links">
+            <a class="cabecalho__menu__link nav-link" id="menu-inicio" href="gigantes.html">Gigantes do Universo</a>
+            <a class="cabecalho__menu__link nav-link" id="menu-influencias" href="estrelas.html">Objetos estelares</a>
+            <a href="index.html"><img class="cabecalho__menu__link__img" src="estilos/img/logo.png"></a>
+            <a class="cabecalho__menu__link nav-link" id="menu-territorio" href="mundos.html">Mundos e Satélites</a>
+            <a class="cabecalho__menu__link nav-link" id="menu-politica" href="regioes.html">Pequenos corpos e regiões</a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+    </header>
 
         <main class="conteudo">
             <div class="inicio_sobre">
@@ -138,51 +139,6 @@
             </footer>
 
     </div>
-    <script>
-        function toggleMenu() {
-    var menuLinks = document.querySelector(".menu-links");
-    menuLinks.classList.toggle("active");
-}
-
-function rotateCard(button) {
-    const card = button.closest('.card');
-    card.classList.toggle('flip');
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Obtém o caminho da URL atual
-    var path = window.location.pathname;
-
-    // Remove a barra inicial, se houver
-    path = path.replace(/^\/|\/$/g, '');
-
-    // Encontra o link correspondente ao caminho atual
-    var activeLink = document.querySelector('.nav-link[href="' + path + '"]');
-
-    // Adiciona a classe 'active' ao link correspondente
-    if (activeLink) {
-        activeLink.classList.add('active');
-    }
-});
-
-// Ativar a classe 'active' no link clicado
-var links = document.querySelectorAll('.nav-link');
-links.forEach(function(link) {
-    link.addEventListener('click', function() {
-        links.forEach(function(innerLink) {
-            innerLink.classList.remove('active');
-        });
-        this.classList.add('active');
-    });
-});
-
-var btn_BackTop = document.getElementById("btn-voltar");
-
-btn_BackTop.addEventListener("click", function(){
-    window.scrollTo(0, 0);
-
-})
-
-
-    </script>
+    <script src="main.js"></script>
+        
 </body>

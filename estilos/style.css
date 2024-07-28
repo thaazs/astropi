@@ -93,20 +93,61 @@ header {
 .menu-icon {
     display: none; /* Oculto por padrão */
 }
-
-@media (max-width: 768px) {
-    .menu-links {
-        display: none; /* Oculto em telas menores */
-    }
-
+.img-mobile-menu {
+    display: none;
+}
+@media screen and (max-width: 1100px) {
+    .cabecalho__menu{
+        justify-content: left;
+        height: 80px;
+    }  
     .menu-icon {
-        display: block; /* Mostra o ícone de menu em telas menores */
+        display: block;
         position: absolute;
         right: 20px;
         font-size: 24px;
         cursor: pointer;
     }
+    .cabecalho__menu__link__img {
+        display: none;
+        margin-left: 0px;
+    }
+    .img-mobile-menu {
+        display: block;
+    }
+    .menu-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 0; /* Definimos a altura inicial como 0 para ocultar o menu */
+        overflow: hidden; /* Oculta qualquer conteúdo que não caiba na altura definida */
+        transition: height 0.3s;
+        background-color: var(--preto);
+        text-align: center;
+    }
+    .menu-links a:last-child {
+        margin-bottom: 20px; 
+    }
+    .button-top {
+        position: relative;
+        left: 50%;
+        transform: translate(0, -50%);
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }  
+    .menu-links.active {
+        display: flex;
+        height: auto;
+    }
+    .rodape-links, .item1, .item2, .item3, .item4{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 
 /* Adicione estilos para transições e hovers, se necessário */
 .cabecalho__menu__link::after {
