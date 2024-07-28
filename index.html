@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroPI</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    
+        <header>
+            <nav class="cabecalho__menu">
+            <div class="menu-links">
+                <a class="cabecalho__menu__link nav-link" id="menu-inicio" href="index.html">Gigantes do Universo</a>
+                <a class="cabecalho__menu__link nav-link" id="menu-influencias" href="influencia.html">Objetos estelares</a>
+                <a href="index.html"><img class="cabecalho__menu__link__img" src="estilos/img/logo.png"></a>
+                <a class="cabecalho__menu__link nav-link" id="menu-territorio" href="territorio.html">Mundos e Satélites</a>
+                <a class="cabecalho__menu__link nav-link" id="menu-politica" href="política.html">Pequenos corpos e regiões</a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+        </header>
+
+        <main class="conteudo">
+            <div class="inicio_sobre">
+                <h1 class="titulo_inicio_sobre">Observatório Astronômico <br>Automatizado</h1>
+                <p class="texto_inicio_sobre">Bem-vindo ao AstroPi, um observatório astronômico automatizado usando Raspberry Pi. 
+                    Capturamos imagens incríveis do céu noturno e trazemos o universo até você!</p>
+
+                <div class="linha"></div>
+
+
+
+
+            </div>
+            <br>
+            <h1>Sobre o AstroPi</h1>
+
+        <p>O AstroPi é um projeto inovador que utiliza a tecnologia do Raspberry Pi para capturar imagens astronômicas. 
+            Nosso objetivo é tornar a observação do universo acessível a todos, permitindo que qualquer pessoa explore as maravilhas do 
+            céu noturno. Além disso buscamos:
+            <ul>
+            <li>Democratizar a astronomia através da tecnologia acessível.</li>
+            <li>Promover o interesse em ciências e tecnologia.</li>
+            <li>Fornecer uma ferramenta educacional para estudantes e entusiastas.</li></ul> </p>
+            <p><b>Compontes utilizados:</b> Raspberry Pi 3, Raspberry Pi Camera Module V2 e Fonte de alimentação de alta capacidade
+            </p>
+            <br>
+
+
+
+            
+        <section id="galeriaImagens">
+
+        </section>
+
+
+
+        <section id="oque">
+            <h1 class="oq">Como funciona?</h1>
+            <div class="linha"></div>
+            <div class="oque">
+            <img src="estilos/img/insta.png">
+                <p class="teste">O AstroPi captura imagens utilizando um Raspberry Pi e uma câmera especializada. As imagens são 
+                    processadas e armazenadas localmente, e uma página web é gerada para exibir os resultados. Para garantir que 
+                    você possa acessar o sistema em qualquer lugar, o AstroPi é configurado como um ponto de acesso local. Isso 
+                    permite a conexão direta com o dispositivo, sem a necessidade de uma rede Wi-Fi externa.
+
+                </p>
+            </div>
+        </section>
+
+        
+    <section id="cards">
+        <br>
+           <h1>Aplicações em outras ciências</h1>
+           <br>
+            <div class="movimento-grid">
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/img/Meteorologia07.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Metereologia</h2>
+                            A tecnologia de captura de imagens pode ser usada para monitorar condições meteorológicas, rastrear 
+                            tempestades e estudar padrões climáticos.</div>
+                    </div>
+                </div>
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/img/Meteorologia07.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Geofísica</h2>
+                            Sistemas semelhantes ao AstroPi podem ser usados para monitorar atividade sísmica e coletar dados 
+                            geofísicos em áreas remotas.</div>
+                    </div>
+                </div>
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/img/Meteorologia07.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Oceanografia</h2>
+                            Captura de imagens subaquáticas e monitoramento de vida marinha usando tecnologia semelhante.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="oportunidades"">
+            <br>
+            <h1>Oportunidades e representatividade</h1>
+            
+            <p>O AstroPi não é apenas um projeto de observação astronômica, mas também uma vitrine para as diversas oportunidades de 
+                carreira em ciência e tecnologia. Desenvolvedores podem explorar campos como astronomia, meteorologia, geofísica, oceanografia 
+                e muito mais. Desenvolvido por duas mulheres apaixonadas por tecnologia e ciências. Acreditamos que além das questões de carreira, 
+                a representatividade feminina nesses campos é extremamente importante. Diversidade em equipes de desenvolvimento leva a soluções 
+                mais criativas e inovadoras. Promover a inclusão de mulheres na ciência e tecnologia é crucial para o avanço desses campos.
+            </p>
+                <p>Esperamos inspirar outras mulheres a seguirem carreiras em STEM (ciência, tecnologia, engenharia e matemática)!</p>
+            </section>
+
+            <button class="button-top" id="btn-voltar">
+                <img src="estilos/img/seta-topo.png" alt="">
+            </button> 
+        </main>
+
+            <footer>
+                <div class="rodape-links">
+                    <a class="item1" href="index.html">Gigantes do Universo</a>
+                    <a class="item2"  href="influencia.html">Objetos estelares</a>
+                    <a class="item3"  href="territorio.html">Mundos e Satélites</a>
+                    <a class="item4"  href="política.html">Pequenos corpos e regiões</a>
+                </div>
+                <div class="logo-insta">
+                    <a href="index.html"><img src="estilos/img/logo.png"></a>
+                    <div class="social-links">
+                        <a class="redes" href="https://www.instagram.com/vozes.resistencia/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                            <img src="estilos/img/insta.png" alt="Icone Instagram"> @aastropi</a></div>
+                </div>
+            </footer>
+
+    </div>
+    <script>
+        function toggleMenu() {
+    var menuLinks = document.querySelector(".menu-links");
+    menuLinks.classList.toggle("active");
+}
+
+function rotateCard(button) {
+    const card = button.closest('.card');
+    card.classList.toggle('flip');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Obtém o caminho da URL atual
+    var path = window.location.pathname;
+
+    // Remove a barra inicial, se houver
+    path = path.replace(/^\/|\/$/g, '');
+
+    // Encontra o link correspondente ao caminho atual
+    var activeLink = document.querySelector('.nav-link[href="' + path + '"]');
+
+    // Adiciona a classe 'active' ao link correspondente
+    if (activeLink) {
+        activeLink.classList.add('active');
+    }
+});
+
+// Ativar a classe 'active' no link clicado
+var links = document.querySelectorAll('.nav-link');
+links.forEach(function(link) {
+    link.addEventListener('click', function() {
+        links.forEach(function(innerLink) {
+            innerLink.classList.remove('active');
+        });
+        this.classList.add('active');
+    });
+});
+
+var btn_BackTop = document.getElementById("btn-voltar");
+
+btn_BackTop.addEventListener("click", function(){
+    window.scrollTo(0, 0);
+
+})
+
+
+    </script>
+</body>

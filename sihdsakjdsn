@@ -1,0 +1,96 @@
+ <main>
+        <div class="inicio_sobre">
+            <h1 class="titulo_inicio_sobre">Observatório Astronômico Automatizado</h1>
+            <div class="linha_inicio"></div>
+            <p class="texto_inicio_sobre">Bem-vindo ao AstroPi, um observatório astronômico automatizado usando Raspberry Pi. 
+                Capturamos imagens incríveis do céu noturno e trazemos o universo até você!</p>
+        </div>
+        <h1>Sobre o AstroPi</h1>
+        <p>O AstroPi é um projeto inovador que utiliza a tecnologia do Raspberry Pi para capturar imagens astronômicas. 
+            Nosso objetivo é tornar a observação do universo acessível a todos, permitindo que qualquer pessoa explore as maravilhas do 
+            céu noturno. Além disso buscamos:
+            <ul>
+            <li>Democratizar a astronomia através da tecnologia acessível.</li>
+            <li>Promover o interesse em ciências e tecnologia.</li>
+            <li>Fornecer uma ferramenta educacional para estudantes e entusiastas.</li></ul> </p>
+            <p><b>Compontes utilizados:</b> Raspberry Pi 3, Raspberry Pi Camera Module V2 e Fonte de alimentação de alta capacidade
+            </p>
+            <br>
+
+
+        <section id="galeriaImagens">
+
+        </section>
+
+        <section id="oque">
+            <h1 class="oq">Como funciona?</h1>
+            <div class="linha"></div> <br>
+            <div class="oque">
+            <img src="estilos/imgs/home/2.jpg">
+                <p class="teste">Os povos indígenas são considerados os primeiros habitantes do Brasil, tendo ocupado o território por 
+                    milênios antes da chegada dos portugueses em 1500, com estimativas de uma população entre cinco e sete milhões 
+                    naquela época. No entanto, o número de indígenas no Brasil é significativamente menor nos dias de hoje, devido a 
+                    diversos fatores, incluindo conflitos históricos e colonização. A identificação dos povos indígenas leva em 
+                    consideração critérios como continuidade histórica, cultura, práticas, tradições, idioma e crenças distintas. 
+                    Além disso, a autoidentificação desempenha um papel fundamental, permitindo que os indivíduos se identifiquem 
+                    como parte da sociedade indígena, preservando assim suas identidades culturais únicas.
+                </p>
+            </div>
+        </section>
+
+        <section id="cards">
+           <h1>Aplicações em outras ciências</h1>
+            <div class="movimento-grid">
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/imgs/movimento/2.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Metereologia</h2>
+                            A tecnologia de captura de imagens pode ser usada para monitorar condições meteorológicas, rastrear 
+                            tempestades e estudar padrões climáticos.</div>
+                    </div>
+                </div>
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/imgs/movimento/3.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Geofísica</h2>
+                            Sistemas semelhantes ao AstroPi podem ser usados para monitorar atividade sísmica e coletar dados 
+                            geofísicos em áreas remotas.</div>
+                    </div>
+                </div>
+                <div class="movimento-card">
+                    <div class="image-container">
+                        <img src="estilos/imgs/movimento/4.jpg" alt="Descrição da imagem">
+                        <div class="movimento-description"><h2 class="movimento-name">Oceanografia</h2>
+                            Captura de imagens subaquáticas e monitoramento de vida marinha usando tecnologia semelhante.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="oportunidades"">
+        <h1>Oportunidades e representatividade</h1>
+        <p>O AstroPi não é apenas um projeto de observação astronômica, mas também uma vitrine para as diversas oportunidades de 
+            carreira em ciência e tecnologia. Desenvolvedores podem explorar campos como astronomia, meteorologia, geofísica, oceanografia 
+            e muito mais. Desenvolvido por duas mulheres apaixonadas por tecnologia e ciências. Acreditamos que além das questões de carreira, 
+            a representatividade feminina nesses campos é extremamente importante. Diversidade em equipes de desenvolvimento leva a soluções 
+            mais criativas e inovadoras. Promover a inclusão de mulheres na ciência e tecnologia é crucial para o avanço desses campos.
+            <br>
+            Esperamos inspirar outras mulheres a seguirem carreiras em STEM (ciência, tecnologia, engenharia e matemática)!</p>
+        </section>"
+        <button class="button-top" id="btn-voltar">
+            <img src="estilos/imgs/seta-topo.png" alt="">
+        </button> 
+    </main>
+    <br><br>
+    <footer>
+        <div class="social-links">
+            <a class="redes" href="https://www.instagram.com/vozes.resistencia/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="estilos/imgs/insta.jpg" alt="Icone Instagram"> @vozes.resistencia</a>
+            <a class="redes" href="https://x.com/vozesresistem?s=20" target="_blank"><img src="estilos/imgs/twitter.png" alt="Icone Twitter"> @vozesresistem</a>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="estilos/imgs/logo.PNG" alt="Logo do Projeto"></a>
+        </div>
+    </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
